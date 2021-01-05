@@ -1,0 +1,92 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+h1 {
+    font-size:50px;
+}
+h2 {
+    font-size: 40px;
+    color: rgb(77, 1, 77);
+}
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+p {
+    color: rgb(34, 31, 31);
+}
+.bottom-mid-section {
+    background-color: rgb(226, 231, 236);
+}
+.semi-box {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.semi-box img {
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+.sub-head {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.project {
+    padding-top: 100px;
+    text-align: center;
+}
+.project-box {
+    width: 27%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 1%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-color: white;
+
+}
+.project-box img {
+    width: 100%;
+    padding-top: 5px;
+}
+.box-one {
+    margin-left: 6%;
+}
+.box-two {
+    margin-left: 2%;
+}
+.box-three {
+    margin-left: 2%;
+}
+.work {
+    background-image: url(image/work-bg.png);
+    margin-top: 150px;
+    margin-left:15%;
+    width: 70%;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#greeting {
+    color: rgb(29, 223, 11);
+}
+#name {
+    color:  rgb(223, 11, 39);
+}
+#latest {
+    color: rgb(206, 87, 7);
+}
