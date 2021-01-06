@@ -22,6 +22,11 @@ p {
 .bottom-mid-section {
     background-color: rgb(226, 231, 236);
 }
+.bottom-section {
+    background-color: rgb(226, 231, 236);
+    padding-top: 200px;
+    height: 500px;
+}
 .semi-box {
     width: 40%;
     float: left;
@@ -34,7 +39,7 @@ p {
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,lightSalmon, tomato);
+    background-image: linear-gradient(45deg,rgb(216, 27, 137), rgb(250, 82, 250));
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -53,11 +58,35 @@ p {
     float: left;
     margin-left: 4%;
     padding-left: 1%;
+    padding-right: 1%;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
     height: 80%;
     background-color: white;
+    text-align: justify;
 
+}
+.service-box {
+    width: 27%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 10px 10px 40px rgb(48, 35, 35);
+    border-radius: 10px;
+    height: 300px;
+    background-color: white;
+    text-align: justify;
+
+}
+.service-box h3 {
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(231, 8, 8);
+}
+.service-box h5 {
+    text-align: center;
+    color: rgb(134, 13, 233);
 }
 .project-box img {
     width: 100%;
@@ -72,14 +101,41 @@ p {
 .box-three {
     margin-left: 2%;
 }
+.services {
+    padding-top: 100px;
+    text-align: center;
+}
 .work {
     background-image: url(image/work-bg.png);
-    margin-top: 150px;
-    margin-left:15%;
-    width: 70%;
-    height: 300px;
+    width: 60%;
+    height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-left: 20%;
+}
+.work-child {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.work-h {
+    padding-top: 40px;
+    text-align: center;
+    color:snow;
+}
+.chat-btn{
+    padding-top: 90px;
+    text-align: center;
+}
+.connected {
+    text-align: center;
+    color: rgb(34, 32, 32);
+    margin-top: 150px;
+}
+.connected img {
+    width: 50px;
+    height: 50px;
+    margin:5px 10px;
 }
 #greeting {
     color: rgb(29, 223, 11);
